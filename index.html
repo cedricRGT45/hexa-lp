@@ -1,0 +1,922 @@
+
+<!DOCTYPE html>
+<html
+        lang="fr"
+        dir="ltr"
+        class="scroll-smooth motion-reduce:scroll-auto"
+>
+<head><script src="/fr/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=fr/livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<title>
+  Informations pour les étudiantes et étudiants internationaux souhaitant étudier à l’École Hexagone en France - École Hexagone
+</title>
+  <meta property="article:section" content="" />
+
+    <meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, viewport-fit=cover"
+/>
+<link
+  crossorigin="anonymous"
+  media="all"
+  type="text/css"
+  rel="stylesheet"
+  integrity="sha512-WUGA&#43;w2H4jmAYcha&#43;MaxH0uTIWwKN3/QFOxxicU1yfWzMUKr8nCZK9WLG3mRER&#43;JS5108G9wT63uxNoPh32u/w=="
+  href="/fr/css/index.min.594180fb0d87e2398061c85af8c6b11f4b93216c0a377fd014ec7189c535c9f5b33142abf270992bd58b1b7991111f894b9d74f06f704fadeec4da0f877daeff.css"
+/>
+        <link rel="stylesheet" href="./style.css">
+</head>
+<body
+        class="relative antialiased"
+        x-cloak
+        @keydown.escape="showVisitModal = false; showBrochureModal = false"
+        x-data="{ showVisitModal: false, showBrochureModal: false }"
+>
+
+<div 
+id="showbrochure" popover
+  class="overflow-auto"
+  x-show="showBrochureModal"
+  :class="{ 'absolute inset-0 z-50 bg-slate-600/25': showBrochureModal }"
+>
+  <div
+    class="fixed top-1/2 ltr:left-1/2 rtl:right-1/2 -translate-y-1/2 ltr:-translate-x-1/2 rtl:translate-x-1/2 w-11/12 rounded bg-white py-4 px-6 text-left shadow-lg md:max-w-[var(--hexa-max-w-grid)] max-h-full overflow-y-auto"
+    x-show="showBrochureModal"
+    @click.away="showBrochureModal = false"
+    x-transition:enter="ease-out duration-300"
+    x-transition:enter-start="opacity-0 scale-90"
+    x-transition:enter-end="opacity-100 scale-100"
+    x-transition:leave="ease-in duration-300"
+    x-transition:leave-start="opacity-100 scale-100"
+    x-transition:leave-end="opacity-0 scale-90"
+  >
+    
+    <div class="flex items-center justify-between pb-3">
+      <div class="z-50 cursor-pointer" @click="showBrochureModal = false">
+        <svg
+          class="fill-current text-black"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 18 18"
+        >
+          <path
+            d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"
+          ></path>
+        </svg>
+      </div>
+      <button popovertarget="showbrochure" popovertargetaction="hide">FERMER</button>
+    </div>
+
+    
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2.js"></script>
+    <script>
+    hbspt.forms.create({
+        portalId: "7602715",
+        formId: "d46c8e0d-0128-4832-957a-3ebf877f37a6",
+    });
+    </script>
+  </div>
+</div>
+
+
+
+
+    <svg
+            style="position:absolute;"
+            width="0"
+            height="0"
+            viewBox="0 0 100 114"
+            xmlns="http://www.w3.org/2000/svg"
+    >
+        <g id="Assets" fill="none">
+            <defs>
+                <clipPath
+                        id="hexagone-clip"
+                        clipPathUnits="objectBoundingBox"
+                        transform="scale(0.01, 0.008771929825)"
+                >
+                    <path
+                            d="M96.9888021,26.1881696 L53.0108842,0.806617132 C51.1477055,-0.268872377 48.8522945,-0.268872377 46.9891158,0.806617132 L37.0948214,6.51705881 L17.7899062,17.6588793 L3.01119789,26.1881696 C1.1480192,27.2636591 0,29.250963 0,31.4013149 L0,82.1644198 C0,84.3153988 1.1480192,86.3027027 3.01119789,87.3781922 L46.9891158,112.759745 C48.8522945,113.834607 51.1477055,113.834607 53.0108842,112.759745 L96.9888021,87.3781922 C98.8519808,86.3027027 100,84.3153988 100,82.1644198 L100,72.6781633 L100,47.7876361 L100,31.4013149 C100,29.250963 98.8519808,27.2636591 96.9888021,26.1881696"
+                    ></path>
+                </clipPath>
+            </defs>
+        </g>
+    </svg>
+
+
+
+
+    <main class="">
+        <header class="header w-full flex flex-col md:flex-row items-center justify-center px-11">
+    <a href="#hero-cta">
+        <img alt="Logo de l'École Hexagone" class="w-[7rem] md:w-[15rem]" src="logo/Hexa_Logo_Sign_RVB.svg">
+    </a>
+    <h1 class="header__title animate-appears w-auto text-yellow text-[1.75rem] md:text-[2rem] lg:text-xl px-6 lg:px-11 md:text-right">
+        Garantissez votre avenir : 100% de nos étudiants débutent leur carrière dès la fin de la formation</h1>
+</header>
+<section class="hero animate-appears overflow-clip w-full mx-auto mt-11 px-11">
+        <div class="hero__titleContainer">
+            <h2 class="hero__title">
+                L'École Hexagone est le choix N°1 pour les étudiants qui veulent devenir des leaders de la souveraineté numérique française.
+            </h2>
+        </div>
+        <div class="hero__content lg:grid grid-rows-2 lg:grid-rows-1 grid-cols-1 md:grid-cols-2 flex lg:flex-none flex-col gap-11 lg:gap-0 my-6">
+            <ul class="hero__list row-span-1 col-span-2 lg:col-span-1">
+                <li class="hexa-pill hero__list-li hero__list-li--1 ">
+                        100% d'insertion professionnelle
+                </li>
+                <li class="hexa-pill hero__list-li hero__list-li--2">
+                        Un salaire moyen en sortie de mastère de xxxx &euro;
+                </li>
+                <li class="hexa-pill hero__list-li hero__list-li--3"> 
+                        Plus de 1000 éléves formés
+                </li>
+                <li class="hexa-pill hero__list-li hero__list-li--4">
+                        Un taux de satisfaction de 97%
+                </li>
+                <li class="flex lg:justify-end w-full mt-[2.5rem]">
+                    <button popovertarget="showbrochure" class="hero__btn py-3 w-full mx-auto lg:mx-0">
+                        <a href="#" @click.prevent="showBrochureModal = true">
+                            JE TÉLÉCHARGE UNE BROCHURE
+                        </a>
+                    </button>
+                </li>               
+            </ul>
+            <div class="w-full lg:w-3/4 row-span-1 col-span-2 lg:col-span-1 self-end justify-self-end">
+                    
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                      <iframe src="https://www.youtube-nocookie.com/embed/8yUn5SqxJGs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les diplômés témoignent"></iframe>
+                    </div>
+   
+            </div>
+        </div>
+    <div class="slider bg-violet">
+        <div class="slide-track">
+            <div class="slide flex items-center">
+                <img src="./logo/inetum-logo.webp" height="100" width="250" alt="logo de Inetum" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-bispok.webp" height="100" width="250" alt="Logo de Bispok" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-cleverCloud.webp" height="100" width="250" alt="Logo de CleverCloud" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-harfanglab.webp" height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide flex items-center border-2 border-violet">
+                <img src="./logo/logo-thales.webp" class="bg-white " height="100" width="250" alt="logo de Thales" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-sociacom.webp"  height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-wimi.webp"  height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/army-minister.png" height="100" width="250" alt="Logo de Bispok" />
+            </div>
+            <div class="slide">
+                <img src="./logo/scaleway.webp" height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/stormshield-logo.webp" height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-cleverCloud.webp" height="100" width="250" alt="Logo de CleverCloud" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-harfanglab.webp" height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-sociacom.webp"  height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/logo-wimi.webp"  height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/scaleway.webp" height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+            <div class="slide">
+                <img src="./logo/stormshield-logo.webp" height="100" width="250" alt="Logo de Harfanglab" />
+            </div>
+        </div>
+    </div>
+</section>
+<section class="flex flex-col justify-center mx-auto px-11">
+        <h1 class="hexa-h-decorum-yellow text-[2rem] md:text-[2rem] lg:text-xl px-6 lg:px-11 text-center lg:pt-11">
+            Révolutionnez votre formation en informatique
+        </h1>
+       <ul class="mx-auto">
+          <li class="hexa-pill my-6">Apprenez auprès d'experts qui dirigent les plus grands projets numériques français</li>
+          <li class="hexa-pill my-6">Maîtrisez les technologies de pointe utilisées par Airbus, Thales et Dassault</li>
+          <li class="hexa-pill my-6">Développez des compétences immédiatement valorisables sur le marché</li>
+          <li class="hexa-pill my-6">Contribuez à la souveraineté numérique française dès votre formation</li>
+        </ul>
+            <div class="grid grid-cols-1 md:grid-cols-2  gap-8 w-full my-11 mx-auto">
+                
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow to-violet animate-gradient"></div>
+                    <div class="flex flex-col md:flex-row justify-center items-center mb-2">
+                        <img class="mr-3" src="icons/icon-education.png">
+                        <h2 class="font-bold text-[2.5rem]">Enseignement</h2>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-4">Des mentors, Pas simplement des professeurs</h3>
+                    <ul class="space-y-2">
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Experts de
+                            haut niveau en activité
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Connexion
+                            directe avec le monde professionnel
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">
+                            Apprentissage des dernières innovations du marché
+                        </li>
+                    </ul>
+                </div>
+            
+                
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow to-violet animate-gradient"></div>
+                    <div class="flex flex-col md:flex-row justify-center items-center mb-2">
+                        <img class="mr-3" src="icons/icon-campus.png">
+                        <h2 class="font-bold text-[2.5rem]">Infrastructure</h2>
+                    </div>
+                    <h3 class="text-lg font-medium text-violet mb-4">Un campus conçu pour votre réussite</h3>
+                    <ul class="space-y-2">
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">
+                            Environnement premium inspiré des géants de la tech
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Services
+                            all-inclusive (sport, nutrition, bien-être)
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">
+                            Équipements dernier cri pour une formation d'excellence
+                        </li>
+                    </ul>
+                </div>
+            
+                
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow to-violet animate-gradient"></div>
+                    <div class="flex flex-col md:flex-row justify-center items-center mb-2">
+                        <img class="mr-3 bg-yellow" src="icons/icon-events.png">
+                        <h2 class="font-bold text-[2.5rem] text-center">Événements d'exception</h2>
+                    </div>
+                    <h3 class="text-lg font-medium text-violet mb-4">Développez votre potentiel grandeur nature</h3>
+                    <ul class="space-y-2">
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Hackathons
+                            avec des entreprises leaders
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Challenges
+                            techniques en conditions réelles
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">
+                            Développement de votre réseau professionnel
+                        </li>
+                    </ul>
+                </div>
+            
+                
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow to-violet animate-gradient"></div>
+                    <div class="flex flex-col md:flex-row justify-center items-center mb-2">
+                        <img class="mr-3" src="icons/icon-handshake.png">
+                        <h2 class="font-bold text-[2.5rem] text-center">Réseau d'excellence</h2>
+                    </div>
+                    <h3 class="text-lg font-medium text-violet mb-4">Votre carrière commence dès maintenant</h3>
+                    <ul class="space-y-2">
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">
+                            Partenariats avec des leaders industriels
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Stages et
+                            alternances
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">
+                            Accompagnement personnalisé vers l'emploi
+                        </li>
+                    </ul>
+                </div>
+            
+                
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow to-violet animate-gradient"></div>
+                    <div class="flex flex-col md:flex-row justify-center items-center mb-2">
+                        <img class="mr-3" src="icons/icon-heart.png">
+                        <h2 class="font-bold text-[2.5rem] text-center">Sport et bien-être</h2>
+                    </div>
+                    <h3 class="text-lg font-medium text-violet mb-4">Votre santé, notre priorité</h3>
+                    <ul class="space-y-2">
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Programme
+                            sport et yoga hebdomadaire
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Suivi
+                            ostéopathique personnalisé
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Équilibre
+                            corps-esprit suivi
+                        </li>
+                    </ul>
+                </div>
+            
+                
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow to-violet animate-gradient"></div>
+                    <div class="flex flex-col md:flex-row justify-between items-center md:w-3/4 md:mx-auto">
+                        <img class="self-center md:self-start" src="icons/icon-crown.png">
+                        <h2 class="font-bold text-[2.5rem] text-center md:text-left">Souveraineté numérique Française</h2>
+                    </div>
+                    <h3 class="text-lg font-medium text-violet mb-4">Devenez un acteur clé de la Tech française</h3>
+                    <ul class="space-y-2">
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Formation
+                            aux enjeux stratégiques nationaux
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Expertise
+                            en cyberdéfense et IA
+                        </li>
+                        <li class="pl-6 relative before:absolute before:content-['→'] before:left-0 before:text-violet">Carrière à
+                            fort impact dans des secteurs critiques
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <button popovertarget="showbrochure" class="py-6 w-full md:w-3/4 mx-auto">
+            <a href="#" @click.prevent="showBrochureModal = true">
+                JE TÉLÉCHARGE UNE BROCHURE
+            </a>
+        </button>
+<div class="flex flex-col md:flex-row mt-11">
+    <div class="mx-auto w-[95%] lg:w-[24rem]">
+        <div class="mb-20  member member-margin whitespace-nowrap flex flex-wrap lg:flex-nowrap justify-center items-center mx-auto relative">
+    <div class="hexa-portrait-no-grayscale member-img ">
+        
+            <img  src="image/Marina-TATOLI.jpg" alt="">
+        
+    </div>
+    <div class="md:h-52 text-center flex flex-auto flex-col gap-1 px-11 items-center justify-center">
+        <h2 class="hexa-h4 "> Marina TATOLI</h2>
+        <p class="mb-2 ">Ambassadrice</p>
+        <p class="text-left block"></p>
+        
+            <a href="0033783970753" class="mt-[-1.6rem]">+33 7 83 97 07 53</a>
+        
+    </div>
+</div>
+
+    </div>
+    <div class="mx-auto w-[95%] lg:w-[32rem]">
+        <div class="mb-20  member sm:mb-0 whitespace-nowrap flex flex-wrap lg:flex-nowrap justify-center items-center mx-auto relative">
+    <div class="hexa-portrait-no-grayscale member-img">
+        
+            <img  src="image/Maeva-FANTON-MABROUK.jpg" alt="">
+        
+    </div>
+    <div class="md:h-52 text-center flex flex-auto flex-col gap-1 px-11 items-center justify-center">
+        <h2 class="hexa-h4 "> Maëva FANTON-MABROUK</h2>
+        <p class="mb-2 ">Ambassadrice</p>
+        <p class="text-left block"></p>
+        
+            <a href="tel:0033749980871" class="mt-[-1.5rem]">+33 7 49 98 08 71</a>
+        
+    </div>
+</div>
+
+    </div>
+</div>
+</section>
+<section id="advantages" class="bg-violet text-yellow mt-11 p-11">
+    <h1 class="text-yellow hexa-h-decorum-white text-center pt-11">Des avantages uniques pour réussir votre parcours professionnel</h1>
+        <h3 class="text-yellow">L’École Hexagone ne se contente pas de vous former. Elle vous prépare à exceller dans le domaine que vous avez choisi. Voici ce qui fait notre différence :</h3>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-10 flex flex-col gap-6 w-full mx-auto my-20">
+        <li class="flex flex-col md:flex-row">
+                <span class="advantage__list-1 self-start mx-auto"></span>
+            <div class="advantage__list-text">
+                <h4 class="text-yellow w-full">
+                    Alternance rémunérée dès la 3<sup>ème</sup> année de bachelor :
+                </h4>
+                <p class="advantage__list-text text-yellow">Contrairement aux formations classiques, vous travaillez pour une entreprise tout en étudiant avec un rythme de 2j en formation et 3j en entreprise.</p>
+        </li>
+        <li class="flex flex-col md:flex-row">
+            <span class="advantage__list-2 self-start mx-auto"></span>
+            <div class="advantage__list-text">
+                <h4 class="text-yellow">
+                Employabilité immédiate : 
+                </h4>
+                <p class="advantage__list-text text-yellow">Choisissez parmi les domaines les plus demandés : architecture des systèmes d’information, cyberdéfense, intelligence artificielle et industrie numérique durable.</p>
+        </li>
+        <li class="flex flex-col md:flex-row">
+            <span class="advantage__list-3 self-start mx-auto"></span>
+            <div class="advantage__list-text">
+                <h4>Réseau professionnel d’élite : </h4>
+                <p>Accès privilégié aux leaders français du numérique qui viennent directement à l’école pour du recrutement post formation.</p>
+            </div>
+        </li>
+        <li class="flex flex-col md:flex-row">
+            <span class="advantage__list-4 self-start mx-auto"></span>
+            <div class="advantage__list-text">
+                <h4>Double apprentissage :</h4>
+                <p>Développement de vos compétences techniques en information + Développement de soft skill essentielles pour le marché du travail (présentation, prise de parole, CV, apprendre à pitcher…)</p>
+            </div>
+        </li>
+        <li class="flex flex-col md:flex-row">
+            <span class="advantage__list-5 self-start mx-auto"></span>
+            <div class="advantage__list-text">
+                <h4>Sensibilisation à l’entreprenariat :</h4>
+                <p>
+                    On vous inculque les bases de l’entreprenariat pour réaliser vos ambitions. Cours de marketing, relation client, business plan, intelligence économique…
+                </p>
+</div>
+        </li>
+        <li class="flex flex-col md:flex-row">
+            <span class="advantage__list-6 self-start mx-auto"></span>
+            <div class="advantage__list-text">
+                <h4>Innovation pédagogique :</h4>
+                <p>
+                    Des programmes co-créés avec des professionnels en activités dans les entreprises qui recrutent
+                </p>
+        </li>
+    </ul>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-4 md:grid-rows-2 w-full mx-auto gap-11">
+        <div class="grid-col-1 grid-row-1">
+            
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube-nocookie.com/embed/MTQAkx0Gqdg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les Étudiants témoignent"></iframe>
+            </div>
+
+        </div>
+        <div class="grid-col-1 grid-row-1">
+            
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube-nocookie.com/embed/5UI2WvV2F0k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les diplômés témoignent"></iframe>
+            </div>
+
+        </div>
+       <div class="grid-col-1 grid-row-1">
+            
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube-nocookie.com/embed/Xyf4qYcvTKo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les diplômés témoignent"></iframe>
+            </div>
+
+        </div>
+        <div class="grid-col-1 grid-row-1">
+            
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube-nocookie.com/embed/awWG8pWSU2I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les diplômés témoignent"></iframe>
+            </div>
+
+        </div>
+         <div class="grid-col-1 grid-row-1">
+            
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube-nocookie.com/embed/0nf0mnGKIdo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les Étudiants témoignent"></iframe>
+            </div>
+
+        </div>
+        <div class="grid-col-1 grid-row-1">
+            
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube-nocookie.com/embed/5ZuoR0RpJeE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Les diplômés témoignent"></iframe>
+            </div>
+
+        </div>
+    </div>
+    <div class="w-full flex justify-center">
+          <button popovertarget="showbrochure" class="py-6 w-full md:w-1/2 mx-auto lg:mx-0 mt-11">
+            <a href="#" @click.prevent="showBrochureModal = true">
+                JE TÉLÉCHARGE UNE BROCHURE
+            </a>
+        </button>
+    </div>
+<div class="flex flex-col md:flex-row mt-11">
+    <div class="mx-auto w-[95%] lg:w-[24rem]">
+        <div class="mb-20  member member-margin whitespace-nowrap flex flex-wrap lg:flex-nowrap justify-center items-center mx-auto relative">
+    <div class="hexa-portrait-no-grayscale member-img ">
+        
+            <img  src="image/Marina-TATOLI.jpg" alt="">
+        
+    </div>
+    <div class="md:h-52 text-center flex flex-auto flex-col gap-1 px-11 items-center justify-center">
+        <h2 class="hexa-h4 "> Marina TATOLI</h2>
+        <p class="mb-2 ">Ambassadrice</p>
+        <p class="text-left block"></p>
+        
+            <a href="0033783970753" class="mt-[-1.6rem]">+33 7 83 97 07 53</a>
+        
+    </div>
+</div>
+
+    </div>
+    <div class="mx-auto w-[95%] lg:w-[32rem]">
+        <div class="mb-20  member sm:mb-0 whitespace-nowrap flex flex-wrap lg:flex-nowrap justify-center items-center mx-auto relative">
+    <div class="hexa-portrait-no-grayscale member-img">
+        
+            <img  src="image/Maeva-FANTON-MABROUK.jpg" alt="">
+        
+    </div>
+    <div class="md:h-52 text-center flex flex-auto flex-col gap-1 px-11 items-center justify-center">
+        <h2 class="hexa-h4 "> Maëva FANTON-MABROUK</h2>
+        <p class="mb-2 ">Ambassadrice</p>
+        <p class="text-left block"></p>
+        
+            <a href="tel:0033749980871" class="mt-[-1.5rem]">+33 7 49 98 08 71</a>
+        
+    </div>
+</div>
+
+    </div>
+</div>
+</section>
+    <section class="relative mb-11 px-11">
+        <div class="hexa-inset-center hexa-inset hexa-inset-top hexa-inset-violet hexa-inset-center h-24"></div>
+        <h1 class="hexa-h-decorum-yellow relative mx-auto
+        mb-6 max-w-[var(--hexa-max-w-grid)] text-violet md:text-center">Les cursus à l'École Hexagone</h1>
+        <div class=" grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-20">
+            <article class="bachelor grid-col-1 grid-row-1 border-2 rounded-2xl shadow-lg p-11 bg-yellow">
+                <h2>Bachelor Informatique sur 3 ans
+                </h2>
+                <p>Le cursus Bachelor proposé par l’École Hexagone, prépare en 3 années aux différents métiers de
+                    l’informatique et du numérique:
+                </p>
+                <ul>
+                    <li class="hexa-pill hexa-pill-white text-[1.35rem]">
+                        Administration systèmes et réseaux
+                    </li>
+                    <li class="hexa-pill hexa-pill-white text-[1.35rem]">
+                        Sécurité
+                    </li>
+                    <li class="hexa-pill hexa-pill-white text-[1.35rem]">
+                        Technologies Web
+                    </li>
+                    <li class="hexa-pill hexa-pill-white text-[1.35rem]">
+                        Développement Python
+                    </li>
+                </ul>
+                <h3 class="pt-11">Bachelors 1 &amp; 2
+                </h3>
+                <p>Les 2 premières années s’effectuent à temps plein en formation initiale avec des cours du lundi au
+                    vendredi de 9h00 à 16h00.</p>
+                <h3 class="pt-11">Bachelor 3
+                </h3>
+                <p>La troisième année, marquant votre entrée dans la vie active, peut s’effectuer avec un rythme adapté à
+                    l’alternance (2 jours à l’École et 3 jours en entreprise).
+                </p>
+                <div class="text-right">
+                    
+                    
+                    <a
+                            class="hexa-cta-white-violet mt-0 first-of-type:mt-4"
+                            href="/fr/fr/cursus/informatique/"
+                            target="blank">En savoir plus sur le
+                        Bachelor Informatique</a><br/>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </article>
+            <article class="grid-col-1 grid-row-1 border-2 rounded-2xl shadow-lg p-11 bg-yellow">
+                <h3 class="FormationParcours-Title">Spécialisez-vous avec les mastères
+                </h3>
+                <p>Tournés vers l’avenir et l’excellence, les programmes formant aux métiers du numérique sont totalement
+                    innovants et correspondent aux exigences des entreprises et feront de vous de futurs collaborateurs
+                    brillants, humains et passionnés.</p>
+                <div class="text-right">
+                    
+                    
+                    
+                    
+                    <a
+                            class="hexa-cta-white-violet mt-0 first-of-type:mt-4"
+                            href="/fr/fr/cursus/architecture-des-si/"
+                            target="blank">
+                        Mastère Architecte des Systèmes d’Information dans les processus industriels</a><br/>
+                    
+                    
+                    
+                    <a
+                            class="hexa-cta-white-violet mt-0 first-of-type:mt-4"
+                            href="/fr/fr/cursus/cyberdefense/"
+                            target="blank">
+                        Mastère Cyberdéfense</a><br/>
+                    
+                    
+                    
+                    <a
+                            class="hexa-cta-white-violet mt-0 first-of-type:mt-4"
+                            href="/fr/fr/cursus/intelligence-artificielle/"
+                            target="blank">
+                        Mastère Intelligence Artificielle</a><br/>
+                    
+                    
+                    
+                    <a
+                            class="hexa-cta-white-violet mt-0 first-of-type:mt-4"
+                            href="/fr/fr/cursus/industries-numeriques-durables/"
+                            target="blank">
+                        Mastère Industries Numériques Durables</a><br/>
+                    
+                    
+                </div>
+            </article>
+        </div>
+    </section>
+
+<section class="px-11">
+<div class="w-full flex justify-center ">
+          <button popovertarget="showbrochure" class="py-6 w-full md:w-1/2 mx-auto lg:mx-0 lg:mt-11">
+            <a href="#" @click.prevent="showBrochureModal = true">
+                JE TÉLÉCHARGE UNE BROCHURE
+            </a>
+        </button>
+    </div>
+</section>
+<section class="w-full mx-auto my-10 p-5 bg-white">
+    <h1 class="text-2xl font-bold text-center mb-6">FAQ</h1>
+    <div class="space-y-4" id="faq">
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq1')">
+                <span>Pourquoi choisir l’École Hexagone plutôt qu’une université traditionnelle ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq1-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq1">
+                <p class="p-4 text-gray-700">L'École Hexagone se distingue par son approche <strong>pragmatique et axée
+                    sur la souveraineté numérique</strong>. Contrairement aux universités traditionnelles, nous
+                    collaborons directement avec des <strong>entreprises leaders</strong> comme Airbus et Thalès pour
+                    vous offrir une formation basée sur des besoins concrets du marché.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq2')">
+                <span>Est-ce que je vais vraiment trouver un emploi après avoir obtenu mon diplôme ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq2-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq2">
+                <p class="p-4 text-gray-700">Absolument. Nos <strong>partenariats stratégiques</strong> avec des
+                    entreprises telles que Dassault et Michelin offrent à nos diplômés des opportunités directes
+                    d’embauche.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq3')">
+                <span>Est-ce que vos diplômes sont reconnus par l’État et les employeurs ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq3">
+                <p class="p-4 text-gray-700">Oui, tous nos diplômes sont <strong>certifiés RNCP</strong>, ce qui
+                    signifie qu’ils sont <strong>reconnus par l'État</strong> et valorisés par les employeurs.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq4')">
+                <span>Comment puis-je financer mes études à l’École Hexagone ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq4">
+                <p class="p-4 text-gray-700">Nous offrons de nombreuses <strong>options de financement</strong>, y
+                    compris le <strong>programme en alternance</strong> qui vous permet de travailler tout en suivant
+                    vos études,
+                    réduisant ainsi considérablement les coûts de scolarité. De plus, nous avons des <strong>partenariats
+                        avec
+                        des banques</strong> pour offrir des prêts étudiants à des taux préférentiels.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq5')">
+                <span>Que se passe-t-il si je ne suis pas satisfait de ma spécialité après la première année ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq5">
+                <p class="p-4 text-gray-700">Nous comprenons que choisir une spécialité est une décision importante,
+                    c'est pourquoi nous offrons la <strong>possibilité de changer de spécialité</strong> après la
+                    première année sans
+                    frais supplémentaires. Cela vous permet d’ajuster votre parcours en fonction de vos intérêts et de
+                    l’évolution du marché.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq6')">
+                <span>Quels sont les avantages concrets de l'alternance à l'École Hexagone ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq6">
+                <p class="p-4 text-gray-700">L'alternance vous permet de <strong>gagner un salaire</strong> tout en
+                    étudiant, ce qui vous
+                    offre une indépendance financière dès vos premières années d'études. De plus, vous acquérez une
+                    <strong>expérience professionnelle précieuse</strong>, ce qui vous donne un <strong>avantage
+                        concurrentiel</strong>
+                    sur le marché du
+                    travail. En alternant entre cours et entreprise, vous appliquez immédiatement ce que vous apprenez,
+                    renforçant ainsi vos compétences.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq7')">
+                <span>Comment l’École Hexagone garantit-elle la réussite de ses étudiants ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq7">
+                <p class="p-4 text-gray-700">Nous offrons un <strong>accompagnement personnalisé</strong> tout au
+                    long de votre
+                    formation. Nos classes à taille humaine permettent aux enseignants de vous suivre de près et
+                    d’adapter leur pédagogie à vos besoins. En plus des cours, nous mettons à disposition des <strong>coachs
+                        professionnels</strong> pour des sessions de mentorat et des services de bien-être pour réduire
+                    le stress et
+                    favoriser l’épanouissement personnel.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq7')">
+                <span>Quelles opportunités de carrière sont ouvertes aux diplômés de l'École Hexagone ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq7">
+                <p class="p-4 text-gray-700">Les opportunités de carrière sont nombreuses et variées. À la sortie
+                    de l’École Hexagone, vous pouvez intégrer des secteurs comme la <strong>cybersécurité</strong>,
+                    <strong>l’intelligence
+                        artificielle</strong>, ou encore <strong>l’architecture des systèmes d’information</strong>.
+                    Grâce à nos <strong>partenariats</strong>
+                    exclusifs avec des entreprises comme Thalès, Airbus et Dassault, vous avez accès à des postes
+                    stratégiques dans des secteurs en pleine expansion.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq7')">
+                <span>Que faire si je ne trouve pas de travail après mon diplôme ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq7">
+                <p class="p-4 text-gray-700">Bien que notre <strong>taux de placement soit très élevé</strong>,
+                    nous comprenons que
+                    le marché du travail peut parfois être imprévisible. Si vous ne trouvez pas d’emploi dans les 6 mois
+                    suivant l’obtention de votre diplôme, nous vous offrons un <strong>programme de coaching de carrière
+                        gratuit</strong>
+                    pour maximiser vos chances. De plus, nous restons en contact avec nos diplômés pour les informer des
+                    <strong>nouvelles opportunités</strong> dans nos entreprises partenaires.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq7')">
+                <span>Quels services sont inclus sur le campus ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq7">
+                <p class="p-4 text-gray-700">Nos campus sont équipés pour vous offrir un <strong>environnement de
+                    travail
+                    optimal</strong>. Vous aurez accès à des <strong>infrastructures modernes</strong>, des <strong>espaces
+                    de
+                    détente premium</strong>,
+                    des repas et boissons à volonté, ainsi que des <strong>activités bien-être</strong> (cours de sport,
+                    coaching
+                    mental). Nous croyons fermement que le bien-être est un moteur de réussite.</p>
+            </div>
+        </div>
+        <div class="border-b">
+            <button class="flex justify-between items-center w-full py-4 text-left text-lg font-medium
+            focus:outline-none bg-violet hover:bg-yellow text-yellow hover:text-violet p-11  "
+                    onclick="toggleDropdown('faq7')">
+                <span>Quelle est la procédure d’inscription à l’École Hexagone ?</span>
+                <svg class="w-5 h-5 transform transition-transform duration-300" fill="none"
+                     id="faq3-icon" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+            </button>
+            <div class="faq-item max-h-0 overflow-hidden" id="faq7">
+                <p class="p-4 text-gray-700">L’inscription est simple et rapide. Il vous suffit de remplir votre
+                    candidature en ligne. Une fois acceptée, vous serez contacté par notre équipe pour finaliser votre
+                    inscription et recevoir toutes les informations nécessaires pour bien démarrer votre parcours. Si
+                    vous avez des questions, notre <strong>équipe d’admission</strong> est là pour vous accompagner pas
+                    à pas..</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="m-11">
+    <h1 class="text-center text-[1.5rem] md:text-lg mb-11">En résumé, l’école Hexagone c’est : </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-3 md:grid-rows-1 gap-20">
+        <article
+        class="grid-col-1 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1">
+            <div class="flex flex-col justify-center items-center mx-auto">
+                <img alt="" class="w-auto mx-auto icon-container p-2 mb-6" src="icons/icon-premium.png">
+                <h2 class="mb-6 text-[1.75rem]">Excellence professionnelle</h2>
+                <ul class="">
+                    <li class="text-[1.25rem]">X% d'insertion professionnelle immédiate</li>
+                    <li class="text-[1.25rem]">Rémunération moyenne de X€ dès la sortie</li>
+                    <li class="text-[1.25rem]">X% de satisfaction diplômés</li>
+                </ul>
+            </div>
+        </article>
+        <article
+        class="grid-col-1 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1">
+            <div class="flex flex-col justify-center items-center">
+                <img alt="" class="w-auto mx-auto icon-container p-2 mb-6" src="icons/icon-transaction.png">
+                <h2 class="mb-6 text-[1.75rem]">Impact et réseau</h2>
+                <ul class="">
+                    <li class="text-[1.25rem]">Partenariats avec les leaders français de la Tech</li>
+                    <li class="text-[1.25rem]">Réseau d'alumni dans des secteurs stratégiques</li>
+                    <li class="text-[1.25rem]">Intervenants experts en activité</li>
+                </ul>
+            </div>
+        </article>
+        <article
+        class="grid-col-1 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1">
+            <div class="flex flex-col justify-center items-center">
+                <img alt="" class="w-auto mx-auto icon-container p-2 mb-6" src="icons/icon-premium.png">
+                <h2 class="mb-6 text-[1.75rem]">Excellence professionnelle</h2>
+                <ul class="">
+                    <li class="text-[1.25rem]">Formation accessible à tous les profils motivés</li>
+                    <li class="text-[1.25rem]">Cursus aligné sur les besoins du marché</li>
+                    <li class="text-[1.25rem]">Alternance dès la 3ème année de bachelor</li>
+                </ul>
+            </div>
+        </article>
+    </div>
+</section>
+</main>
+<footer class="header w-full flex flex-col md:flex-row items-center justify-center px-11">
+    <a href="#hero-cta">
+        
+        <img
+        alt="Logo de l’École Hexagone"
+        class="mx-auto"
+        height="80"
+        loading="lazy"
+        src="./logo/Hexa_Logo_Sign_Res_RVB.svg"
+        width="220"
+        />
+    </a>
+</footer>
+        <script>
+            function toggleDropdown(faqId) {
+                const faqContent = document.getElementById(faqId);
+                const faqIcon = document.getElementById(faqId + '-icon');
+        
+                if (faqContent.style.maxHeight) {
+                    faqContent.style.maxHeight = null;
+                    faqIcon.style.transform = 'rotate(0deg)';
+                } else {
+                    faqContent.style.maxHeight = faqContent.scrollHeight + "px";
+                    faqIcon.style.transform = 'rotate(90deg)';
+                }
+            }
+        </script>
+</body>
+</html>
